@@ -1,0 +1,1 @@
+docker buildx build --push --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --platform linux/amd64,linux/arm64/v8,linux/arm/v7 --tag feniarus/ilo4_fancontrol .
